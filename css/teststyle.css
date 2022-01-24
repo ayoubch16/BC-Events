@@ -1,0 +1,594 @@
+
+body{
+    
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    height: 100%;
+    justify-content: center;
+    
+
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+  }
+  nav{
+    flex: 1;
+    text-align: right;
+  }
+  nav ul{
+    display: inline-block;
+    list-style-type: none;
+  }
+  nav ul li{
+    display: inline-block;
+    margin-right: 20px
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  p{
+    color: #555;
+  }
+  .container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .col-2{
+   
+    flex-basis: 50%;
+    max-width: 80%;
+    max-height: 60%;
+   
+  }
+  .col-2 .v{
+    height: 400px;
+    width: 590px;
+  }
+  .col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+  }
+  .col-2 h1{
+    font-family: 'Long Cang', cursive;
+    font-size: 70px;
+    line-height: 60px;
+    margin: 25px 0;
+  }
+  .btn{
+    display: inline-block;
+    background:#ff523b; 
+    color:#fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+  }
+  .btn:hover{
+    background: #563434;
+  }
+  .Serv{
+    background: radial-gradient(#fff, #e49f8a);
+  }
+  .header{
+  background: radial-gradient(#fff, #e49f8a);
+  }
+  .header .row{
+    margin-top: 70px;
+  }
+  .categories{
+    margin: 70px 0;
+  }
+  .col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+  }
+  .col-3 img{
+    width: 50%
+  }
+  .small-container{
+    max-width: 90%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  
+  }
+  .col-4{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+    flex-basis: 25%;
+    padding: 10px;
+    
+    min-width:250px;
+    margin-bottom : 50px;
+    transition : transform 0.5s
+  }
+  .col-4 img{
+    
+    height: 300px;
+    width: 100%;
+    padding: 2%;
+  }
+  .img-add{
+    width: 80%;
+  }
+  
+  .title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+  }
+  .title::after{
+    content: '';
+    background: #ff523b;
+    width :80px;
+    height :5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  h4{
+    color: #555;
+    font-weight: normal;
+  }
+  .col-4 p{
+    font-size: 14px;
+  }
+  .rating .fa{
+    color: #ff523b 
+  }
+  .col-4:hover{
+    transform: translateY(-5px);
+  }
+  /*----offre--------*/
+  .offre{
+    background: radial-gradient(#fff, #9198e5);
+    margin-top: 80px;
+    padding : 30px 0; 
+  }
+  .col-2 .offre-img{
+    padding: 50px;
+  }
+  small{
+    color: #555;
+  }
+  /*-------------testimonial--------*/
+  .testimonial{
+    padding-top: 100px;
+  }
+  .testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+  .testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%
+  }
+  .testimonial .col-3:hover{
+    transform: translateY(-10px);
+  }
+  .fa.fa-quote-left{
+    font-size: 34px;
+    color: #ff523b
+  }
+  .col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+  }
+  .testimonial .col-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  /*----------footer-------------------*/
+  .footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+  }
+  .footer p{
+    color: #8a8a8a
+  }
+  .footer h3{
+    color: #fff;
+    margin-bottom:20px;
+  }
+  .footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+  }
+  .footer-col-1{
+    flex-basis: 30%;
+  }
+  .footer-col-2{
+    flex: 1;
+    text-align: center;
+  }
+  .footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+  }
+  .footer-col-3,.footer-col-4{
+    flex-basis: 12%;  
+    text-align: center;
+  }
+  ul{
+    list-style-type: none;
+  }
+  .app-logo{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .app-logo img{
+    width: 140px;
+  }
+  .footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+  }
+  .copyright{
+    text-align: center;
+  }
+  .menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+  }
+  /*------menu----------*/
+  @media only screen and (max-width: 800px){
+  
+    nav ul{
+      position: absolute;
+      top: 70px;
+      left: 0;
+      background:#333;
+      width: 100%; 
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+     nav ul li{
+      display: block;
+      margin-right: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+     nav ul li a{
+      color: #fff;
+  
+     }
+     .menu-icon{
+      display: block;
+      cursor: pointer;
+     }
+     #modal h4 {
+      font-size: 30px;
+      text-align: center;
+    }
+    #image{
+      width: 50%;
+      height: 30%;
+    }
+  }
+  
+  @media only screen and (max-width: 600px){
+    #image{
+      width: 60%;
+      height: 40%;
+      display: block;
+    }
+    .btn-D{
+      width: 200px;
+    }
+    .btn-W{
+      width: 200px;
+    }
+    .fermer:hover{
+      cursor: pointer;
+      font-size: 30px;
+      color: #000;
+    }
+    
+    #modal h4 {
+      font-size: 20px;
+      text-align: center;
+      
+    }
+    .nnv{
+      text-align: center;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
+    .single-product .row{
+    text-align: left;
+  }
+  .single-product .col-2{
+    padding: 20px;
+  }
+  .single-product h1{
+    font-size: 26px;
+    line-height: 22px;
+  }
+  .cart-info{
+    display: none;
+  }
+
+  
+  }
+  
+  /*---------- all produits-------------*/
+  .row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px; 
+  }
+  select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+  }
+  select:focus{
+    outline: none;
+  }
+  .page-btn{
+    margin: 0 auto 80px;
+  }
+  .page-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align : center;
+    line-height: 40px;
+    cursor: pointer;
+  }
+  .page-btn span:hover{
+    background: #ff523b;
+    color: #fff;
+  }
+  /*---------- single products details-------------*/
+  .single-product{
+    margin-top: 80px
+  }
+  .single-product .col-2 img{
+    padding: 0;
+  }
+  .single-product .col-2{
+    padding: 20px;
+  }
+  .single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .single-product .fa{
+    color: #ff523b;
+    margin-left: 10px;
+  }
+  .small-img-row{
+    display: flex;
+    justify-content: space-between;
+  }
+  .small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+  }
+  
+  /*----------carte items details-------------*/
+
+  /*----------account page  -------------*/
+  .btn-W{
+    background:  #25d366;
+    width: 200px;
+    display: block;
+  
+  }
+  .btn-D{
+    display: block;
+    width: 200px;
+ 
+  }
+  .btn-m{
+    color: #ff523b;
+  }
+  
+  #modal{
+    background: radial-gradient(#fff, #cc6c4f);
+    width: 60%;
+    height: 70%;
+    top: -700px;
+    left: 20%;
+    position: fixed;
+    border-radius:15px;
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0px rgba(0,0,1,1);
+    padding: 10px ;
+    margin: auto;
+    text-align: center;
+
+  }
+
+  #prix{
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+  }
+  #titre{
+    text-align: center;
+  }
+  #image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+ .Ser{
+   margin: 0px;
+   
+ }
+ img{
+   cursor: pointer;
+ }
+.fermer{
+  position: relative;
+  text-align: end;
+    color: rgb(124, 65, 16);
+    font-style: oblique;
+    font-size: 30px;
+    padding: 5px;
+   
+  }
+  .fermer:hover{
+    cursor: pointer;
+    font-size: 30px;
+    color: #000;
+  }
+  .logo{
+      width: 100px;
+      height:100px;
+  }
+  .logo-footer{
+    width: 150px;
+    height:150px;
+  }
+  .Follow{
+      color: #ccc;
+  }
+  .mySlides {display: none;
+    max-height: 500px;
+}
+img {vertical-align: middle;
+    max-height: 500px;
+width: 100%;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  max-height: 500px;
+  position: relative;
+  padding: 10px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+/*-----------------test----------------*/
+.whatsapp{
+  width: 60%;
+    height: 70%;
+    top: -700px;
+    left: 20%;
+    position: fixed;
+    display: flex;
+    border-radius:15px;
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0px rgba(0,0,1,1);
+    padding: 10px ;
+    margin: auto;
+    text-align: center;
+  
+}
+.ImgWhat{
+  width: 10%;
+  height: 10%;
+  top: 85%;
+  
+  left: 85%;
+  position: fixed;
+  display: flex;
+}
+.ImgWhat:hover{
+  width: 15%;
+  height: 15%;
+  transition: 0.5s;
+}

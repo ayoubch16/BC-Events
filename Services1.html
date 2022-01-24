@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Services</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+        <link rel="stylesheet" href="css/teststyle.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="icon" type="image/x-icon" href="image/log.ico"/>
+        <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body class="Serv">
+<!----------Menu----------->
+        <div id="cnt1" class="container">
+          <div class="navbar">
+            <div class="logo">
+              <a href="index1.html"> <img class="logo" src="image/poster1_20_131916.png" ></a>
+            </div>
+            <nav class="nnv">
+              <ul id="MenuItems">
+                <li><a href="index1.html"><i class="fa fa-home" aria-hidden="true"></i>   Home</a></li>
+                <li><a href="Services1.html"><i class="fa fa-clone"></i>  Services</a></li>
+                <li><a href="photo1.html"><i class="fa fa-picture-o" ></i>  Photos</a></li>
+                
+              </ul>
+            </nav>     
+            <!--a href="carte.html"><img src="image/cart.png" width="30px" height="30px"></a-->   
+            <img src="image/menu.png" class="menu-icon" onclick="menutoggle()">      
+          </div>
+        </div>
+    
+
+<!--------Liste des Services--------->
+
+
+<div id="cnt2" class="small-container">
+    <div class="row row-2">
+      <h2>Services</h2>
+     
+    </div>
+ 
+   <div  class="row">
+     <!--Liste des produite -->
+     <div  class="col-4">
+       <img class="Img"  onclick="openModal1()" src="image/Atelier.jpg">
+       <h4 id="N">Atelier Creatif</h4>
+       <div class="rating">
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star-half-o" ></i>
+             <i class="fa fa-star-o" ></i>
+       </div>
+       <h2>499.00 DH</h2>
+       
+       
+     </div>
+ 
+     <div class="col-4">
+        <img class="Img"  onclick="openModal2()" src="image/sono.jpg">
+       <h4>Sonorisation</h4>
+       <div class="rating">
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star-half-o" ></i>
+             <i class="fa fa-star-o" ></i>
+             <i class="fa fa-star-o" ></i>
+       </div>
+       <h2>399.00 DH</h2>
+      
+     </div>
+ 
+     <div class="col-4">
+       <img class="Img"  onclick="openModal3()" src="image/magicien.jpeg">
+       <h4>Magicien</h4>
+       <div class="rating">
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star-half-o" ></i>
+             <i class="fa fa-star-o" ></i>
+             <i class="fa fa-star-o" ></i>
+       </div>
+       <h2>499.00 DH</h2>
+       
+     </div>
+ 
+     <div class="col-4">
+        <img class="Img"  onclick="openModal4()" src="image/eclerage.jpeg">
+       <h4>Eclerage</h4>
+       <div class="rating">
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star-half-o" ></i>
+             <i class="fa fa-star-o" ></i>
+             <i class="fa fa-star-o" ></i>
+       </div>
+       <h2>299.00 DH</h2>
+       
+     </div>
+   </div>
+  
+  <div class="row">
+     <!--Liste des produite -->
+     <div class="col-4">
+        <img class="Img"  onclick="openModal5()" src="image/clown.jpg">
+       <h4>Clown</h4>
+       <div class="rating">
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star-half-o" ></i>
+             <i class="fa fa-star-o" ></i>
+             <i class="fa fa-star-o" ></i>
+       </div>
+       <h2>300.00 DH</h2>
+       
+     </div>
+ 
+     <div class="col-4">
+        <img class="Img" onclick="openModal6()" src="image/mascotte.jpg">
+       <h4>Mascotte</h4>
+       <div class="rating">
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star-half-o" ></i>
+             <i class="fa fa-star-o" ></i>
+             <i class="fa fa-star-o" ></i>
+       </div>
+       <h2>300.00 DH</h2>
+       
+     </div>
+     
+     <div class="col-4">
+        <img class="Img" onclick="openModal7()" src="image/gonflable.jpg">
+       <h4>Kermess/Gonflable</h4>
+       <div class="rating">
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star-half-o" ></i>
+             <i class="fa fa-star-o" ></i>
+             <i class="fa fa-star-o" ></i>
+       </div>
+       <h2>2999.00 DH</h2>
+       
+     </div>
+ 
+     <div class="col-4">
+        <img class="Img" onclick="openModal8()" src="image/dj.jpg">
+       <h4>Dj</h4>
+       <div class="rating">
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star-half-o" ></i>
+             <i class="fa fa-star-o" ></i>
+             <i class="fa fa-star-o" ></i>
+       </div>
+       <h2>300.00 DH</h2>
+       
+     </div>
+   </div>
+  
+   <div class="row">
+     <!--Liste des produite -->
+     <div class="col-4">
+       <img class="Img" onclick="openModal9()" src="image/maquillage.jpg">
+       <h4>Maquillage</h4>
+       <div class="rating">
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star-half-o" ></i>
+             <i class="fa fa-star-o" ></i>
+             <i class="fa fa-star-o" ></i>
+       </div>
+       <h2>300.00 DH</h2>
+       
+     </div>
+ 
+     <div class="col-4">
+        <img class="Img" onclick="openModal10()" src="image/ballon.jpg">
+       <h4>Decoration Ballon</h4>
+       <div class="rating">
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star-half-o" ></i>
+             <i class="fa fa-star-o" ></i>
+             <i class="fa fa-star-o" ></i>
+       </div>
+       <h2>499.00 DH</h2>
+       
+     </div>
+ 
+     <div class="col-4">
+        <img class="Img" onclick="openModal11()" src="image/bufet.jpg">
+       <h4>Bufet</h4>
+       <div class="rating">
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star-half-o" ></i>
+             <i class="fa fa-star-o" ></i>
+             <i class="fa fa-star-o" ></i>
+       </div>
+       <h2>500.00 DH</h2>
+       
+     </div>
+ 
+     <div class="col-4">
+       <img class="Img" onclick="openModal12()" src="image/pub.jpg">
+       <h4>Publicité</h4>
+       <div class="rating">
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star-half-o" ></i>
+             <i class="fa fa-star-o" ></i>
+             <i class="fa fa-star-o" ></i>
+       </div>
+       <h2>700.00 DH</h2>
+      
+     </div>
+
+     <div class="col-4">
+        <img class="Img" onclick="openModal13()" src="image/popcorn.jpg">
+       <h4>PopCorn</h4>
+       <div class="rating">
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star-half-o" ></i>
+             <i class="fa fa-star-o" ></i>
+             <i class="fa fa-star-o" ></i>
+       </div>
+       <h2>500.00 DH</h2>
+       
+     </div>
+
+     <div class="col-4">
+        <img class="Img" onclick="openModal14()" src="image/barpapa.jpg">
+       <h4>Barbapapa</h4>
+       <div class="rating">
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star" ></i>
+             <i class="fa fa-star-half-o" ></i>
+             <i class="fa fa-star-o" ></i>
+             <i class="fa fa-star-o" ></i>
+       </div>
+       <h2>400.00 DH</h2>
+       
+     </div>
+   </div>
+  
+
+ 
+ </div>
+
+
+
+
+
+
+<!----- footer-------->
+<div id="cnt3" class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Telecharger notre App Android :</h3>
+        <div class="app-logo">
+            <a href="https://play.google.com/store/apps/details?id=com.ayoubch16.bceventsdemo" target="blanc"><img src="image/play-store.png"></a>
+         
+         
+        </div>
+      </div>
+      
+      <div class="footer-col-3">
+        <h3> Menu : </h3>
+        <ul>
+            <li><a class="Follow" href="index1.html">Home</a></li>
+            <li><a class="Follow" href="Services1.html">Service</a></li>
+            <li><a class="Follow" href="photo1.html">Photos</a></li>
+            
+          </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3> Notre Reseaux :</h3>
+        <ul>
+          <li><a class="Follow" target="blanc" href="https://www.facebook.com/bcevents2325"><i class="fa fa-facebook-official"></i>  Facebook</a></li>
+          <li><a class="Follow" target="blanc" href="https://www.instagram.com/bc.events.bc/"><i class="fa fa-instagram"></i>  Instagram</a></li>
+          <li><a class="Follow" target="blanc" href="https://www.youtube.com/channel/UCCYxmCBrMToZLYN2N-0REgA/featured"><i class="fa fa-youtube-play"></i>  Youtube</a></li>
+          <li><a class="Follow" target="blanc" href="https://www.tiktok.com/@bcevents?lang=ar">  Tiktok</a></li>
+          <li><a class="Follow" target="blanc" href="https://wa.me/212658990239"><i class="fa fa-whatsapp"></i>  Whatsapp</a></li>
+        </ul>
+      </div>
+      <div class="footer-col-2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15225.243725116197!2d-6.771728094035185
+        !3d34.022310888760174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDAxJzE5LjMiTiA2wr
+        A0NSc1MS4yIlc!5e1!3m2!1sfr!2sma!4v1600370619042!5m2!1sfr!2sma"
+         width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2020 - BC events</p>
+  </div>
+</div>
+<!-------------  js for toggle menu------------>
+<script type="text/javascript">
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight="0px";
+
+  function menutoggle(){
+    if (MenuItems.style.maxHeight=="0px") 
+    {
+      MenuItems.style.maxHeight="200px";
+    }
+    else
+    {
+      MenuItems.style.maxHeight="0px";
+    }
+  }
+</script>
+<div id="modal">
+  <h4 class="fermer" onclick="closemodal()">X</h4>
+          
+  <div class="form-btn">
+    
+  
+  </div>
+  <div class="small-container single-product Ser">
+    
+    <div class="row">
+      
+      <div class="col-2">
+        <img id="image" src=""  >
+      </div>
+      <div class="col-2">
+        
+        <h1 id="titre"></h1>
+        <h4 id="prix"></h4>
+      
+       <!--div class="demo" id="demo"><h2> </h2></div-->
+        <a href="" class="btn btn-D" onclick="closemodal()">Demander </a>
+        <a href="https://wa.me/212658990239" target="blank" class="btn btn-W" onclick="closemodal()">Whatsapp</a>
+        
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var N;
+    var Img=document.getElementsByClassName('Img');
+    var title=document.getElementById('titre');
+    var prix=document.getElementById('prix');
+    var image=document.getElementById('image');
+
+    function openModal1(){document.getElementById("modal").style.top="120px";
+      document.getElementById('cnt1').style.filter="blur(5px)";
+      document.getElementById('cnt2').style.filter="blur(5px)";
+      document.getElementById('cnt3').style.filter="blur(5px)";
+      title.innerHTML="Atelier Creartif";prix.innerHTML="499.00 DH";image.src="image/Atelier.jpg";}
+
+    function openModal2(){document.getElementById("modal").style.top="120px";
+      document.getElementById('cnt1').style.filter="blur(5px)";
+      document.getElementById('cnt2').style.filter="blur(5px)";
+      document.getElementById('cnt3').style.filter="blur(5px)";
+      title.innerHTML="Sonorisation";prix.innerHTML="399.00 DH";image.src="image/sono.jpg";}
+
+    function openModal3(){document.getElementById("modal").style.top="120px";
+      document.getElementById('cnt1').style.filter="blur(5px)";
+      document.getElementById('cnt2').style.filter="blur(5px)";
+      document.getElementById('cnt3').style.filter="blur(5px)";
+      title.innerHTML="Magicien";prix.innerHTML="499.00 DH";image.src="image/magicien.jpeg"; }
+
+    function openModal4(){document.getElementById("modal").style.top="120px";
+    document.getElementById('cnt1').style.filter="blur(5px)";
+      document.getElementById('cnt2').style.filter="blur(5px)";
+      document.getElementById('cnt3').style.filter="blur(5px)";
+      title.innerHTML="Eclerage";prix.innerHTML="299.00 DH";image.src="image/eclerage.jpeg"; }
+
+    function openModal5(){document.getElementById("modal").style.top="120px";
+    document.getElementById('cnt1').style.filter="blur(5px)";
+      document.getElementById('cnt2').style.filter="blur(5px)";
+      document.getElementById('cnt3').style.filter="blur(5px)";
+      title.innerHTML="Clown";prix.innerHTML="300.00DH";image.src="image/clown.jpg" }
+
+    function openModal6(){document.getElementById("modal").style.top="120px";
+    document.getElementById('cnt1').style.filter="blur(5px)";
+      document.getElementById('cnt2').style.filter="blur(5px)";
+      document.getElementById('cnt3').style.filter="blur(5px)";
+      title.innerHTML="Mascotte";prix.innerHTML="300.00 DH";image.src="image/mascotte.jpg" }
+
+    function openModal7(){document.getElementById("modal").style.top="120px";
+    document.getElementById('cnt1').style.filter="blur(5px)";
+      document.getElementById('cnt2').style.filter="blur(5px)";
+      document.getElementById('cnt3').style.filter="blur(5px)";
+      title.innerHTML="Kermess";prix.innerHTML="2999.00 DH";image.src="image/gonflable.jpg" }
+
+    function openModal8(){document.getElementById("modal").style.top="120px";
+    document.getElementById('cnt1').style.filter="blur(5px)";
+      document.getElementById('cnt2').style.filter="blur(5px)";
+      document.getElementById('cnt3').style.filter="blur(5px)";
+      title.innerHTML="DJ";prix.innerHTML="300.00 DH";image.src="image/dj.jpg" }
+
+    function openModal9(){document.getElementById("modal").style.top="120px";
+    document.getElementById('cnt1').style.filter="blur(5px)";
+      document.getElementById('cnt2').style.filter="blur(5px)";
+      document.getElementById('cnt3').style.filter="blur(5px)";
+      title.innerHTML="Maquillage";prix.innerHTML="300.00 DH";image.src="image/maquillage.jpg" }
+
+    function openModal10(){document.getElementById("modal").style.top="120px";
+    document.getElementById('cnt1').style.filter="blur(5px)";
+      document.getElementById('cnt2').style.filter="blur(5px)";
+      document.getElementById('cnt3').style.filter="blur(5px)";
+      title.innerHTML="Decoration Ballon";prix.innerHTML="499.00";image.src="image/ballon.jpg" }
+
+    function openModal11(){document.getElementById("modal").style.top="120px";
+    document.getElementById('cnt1').style.filter="blur(5px)";
+      document.getElementById('cnt2').style.filter="blur(5px)";
+      document.getElementById('cnt3').style.filter="blur(5px)";
+      title.innerHTML="Bufet";prix.innerHTML="500.00 DH";image.src="image/bufet.jpg" }
+
+    function openModal12(){document.getElementById("modal").style.top="120px";
+    document.getElementById('cnt1').style.filter="blur(5px)";
+      document.getElementById('cnt2').style.filter="blur(5px)";
+      document.getElementById('cnt3').style.filter="blur(5px)";
+      title.innerHTML="Publicité";prix.innerHTML="700.00 DH";image.src="image/pub.jpg" }
+
+    function openModal13(){document.getElementById("modal").style.top="120px";
+    document.getElementById('cnt1').style.filter="blur(5px)";
+      document.getElementById('cnt2').style.filter="blur(5px)";
+      document.getElementById('cnt3').style.filter="blur(5px)";
+      title.innerHTML="PopCorn";prix.innerHTML="500.00 DH";image.src="image/popcorn.jpg" }
+
+    function openModal14(){document.getElementById("modal").style.top="120px";
+    document.getElementById('cnt1').style.filter="blur(5px)";
+      document.getElementById('cnt2').style.filter="blur(5px)";
+      document.getElementById('cnt3').style.filter="blur(5px)";
+      title.innerHTML="Barbapapa";prix.innerHTML="400.00 DH";image.src="image/barpapa.jpg" }
+
+    function closemodal(){
+document.getElementById("modal").style.top=("-700px");
+document.getElementById('cnt1').style.filter="blur(0px)";
+      document.getElementById('cnt2').style.filter="blur(0px)";
+      document.getElementById('cnt3').style.filter="blur(0px)";
+} 
+   
+
+
+  </script>
+ 
+  
+
+
+</div>
+</body>
+</html>
